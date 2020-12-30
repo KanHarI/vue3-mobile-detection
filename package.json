@@ -2,8 +2,13 @@
   "name": "vue3-mobile-detection",
   "version": "1.0.0",
   "description": "Mobile browser detection for Vue.js 3",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/KanHarI/vue3-mobile-detection",
   "author": "Itay KanHar <knaan.harpaz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.17",
+    "is-mobile": "^2.2.2",
+    "vue": "^3.0.0"
+  }
 }
