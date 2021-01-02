@@ -1,4 +1,4 @@
-This package intends to add mobile detection in vue.js 3 projects.
+This package adds mobile detection in vue.js 3 projects.
 
 Installation:
 ```
