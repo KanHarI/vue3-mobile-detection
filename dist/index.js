@@ -4,3 +4,7 @@ export default {
         app.config.globalProperties.$isMobile = is_mobile_func;
     }
 };
+function useMobileDetection() {
+    var $isMobile = is_mobile_func;
+    return { $isMobile: $isMobile };
+}
