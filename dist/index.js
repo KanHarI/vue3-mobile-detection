@@ -5,7 +5,7 @@ export default {
     }
 };
 function useMobileDetection() {
-    var $isMobile = is_mobile_func;
-    return { $isMobile: $isMobile };
+    var isMobile = is_mobile_func;
+    return { isMobile: isMobile };
 }
 export { useMobileDetection };

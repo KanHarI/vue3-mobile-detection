@@ -26,8 +26,8 @@ import { useMobileDetection } from "vue3-mobile-detection";
 
 export default defineComponent({
   setup() {
-    const { $isMobile } = useMobileDetection();
-    return { $isMobile };
+    const { isMobile } = useMobileDetection();
+    return { isMobile };
   }
 });
 </script>

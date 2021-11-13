@@ -4,6 +4,6 @@ declare const _default: {
 };
 export default _default;
 declare function useMobileDetection(): {
-    $isMobile: any;
+    isMobile: any;
 };
 export { useMobileDetection };

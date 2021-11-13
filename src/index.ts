@@ -8,8 +8,8 @@ export default {
 }
 
 function useMobileDetection() {
-  const $isMobile = is_mobile_func;
-  return {$isMobile};
+  const isMobile = is_mobile_func;
+  return { isMobile };
 }
 
-export { useMobileDetection }
+export { useMobileDetection };
