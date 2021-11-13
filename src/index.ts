@@ -11,3 +11,5 @@ function useMobileDetection() {
   const $isMobile = is_mobile_func;
   return {$isMobile};
 }
+
+export { useMobileDetection }
